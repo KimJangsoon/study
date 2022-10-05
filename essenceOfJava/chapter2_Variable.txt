@@ -1,0 +1,22 @@
+. 변수(Variable)란?
+
+하나의 값을 저장할 수 있는 기억공간
+	
+	기본형(Primitive type)
+	- 8개(boolean, char, byte, short, int, long, float, double)
+	- 실제 값을 저장
+
+	참조형(Reference type)
+	-기본형을 제외한 나머지(String, System 등)
+	-객체의 주소를 저장(4 byte, 0x0000000~0xffffffff)
+
+정수형 - 주로 int, long형 사용, byte는 이진데이터를 다루는데 사용
+	short는 c언어와의 호환을 위해 추가되었다.
+
+상수(constant) - 한 번만 값을 저장할 수 있는 공간
+
+리터럴(literal) - 그 자체로 값을 의미하는 것
+
+변수의 초기화: 변수에 처음으로 값을 지정하는 것(지역변수는 사용되기 전에 반드시 초기화해주어야 한다.)
+
+
